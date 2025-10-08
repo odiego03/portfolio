@@ -1,9 +1,10 @@
 .contactSection {
   padding: 48px 20px;
-  max-width: 900px;
+  
   margin: 0 auto;
-  color: #F5F5F5; /* adapta à sua paleta */
+  color: #F5F5F5; 
   text-align: center;
+  width: 100% ;
 }
 
 .title {
@@ -32,22 +33,8 @@
   color: #B0C4DE;
 }
 
-/* inputs */
-.input, .textarea {
-  margin-top: 6px;
-  padding: 10px 12px;
-  border-radius: 8px;
-  border: 1px solid rgba(255,255,255,0.12);
-  background: rgba(255,255,255,0.03);
-  color: #fff;
-  outline: none;
-  font-size: 14px;
-}
 
-.textarea {
-  grid-column: 1 / -1; /* ocupa as duas colunas */
-  resize: vertical;
-}
+
 
 /* ações */
 .actions {
