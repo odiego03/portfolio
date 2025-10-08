@@ -1,0 +1,28 @@
+.itemProject {
+    display: flex;         
+    align-items: center;    
+    gap: 0.5rem;            
+    padding: 0 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+.title {
+    margin: 5px;
+    font-size: 1.3rem;
+    color: #B0C4DE;
+}
+.itemProject:hover {
+    background-color: #1E2A3A;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+    
+    
+    
+}

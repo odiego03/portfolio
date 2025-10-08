@@ -1,0 +1,121 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+
+    
+    color: white;
+    text-align: left;
+    padding-bottom: 30px;
+}
+.homeSection  {
+  background: linear-gradient(to top, #060d14 0.1%, #ff7b0018 99%) !important;
+}
+
+.homeContainer{
+    margin-top: 5%;
+    
+
+}
+.introText{
+    
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: #B0C4DE;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.profession{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #3DA5D9;
+}
+.description{
+    font-size: 14px;
+    margin-top: 20px;
+    max-width: 400px;
+    color: #B0C4DE;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.buttonContainer button{
+    padding: 10px 20px;
+    font-size: 14px;
+    
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+    background-color: transparent;
+}
+
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+.linkedin {
+  border-color: #0077b5;
+  color: #0077b5;
+}
+.linkedin:hover {
+  background-color: #0077b5;
+  color: white;
+}
+
+.github {
+  border: 1px solid #e6d8d8;
+  color: #e6d8d8;
+}
+
+.github:hover {
+  background-color: #333;
+  color: white;
+}
+
+.curriculo {
+  border-color: red;
+  color: red;
+}
+
+.curriculo:hover {
+  background-color: red;
+  color: white;
+}
+
+@media (max-width: 600px) {
+    .homeContainer{
+        margin-top: 20%;
+        width: 70%;
+    }
+    .name{
+        font-size: 30px;
+    }
+    .profession{
+        font-size: 16px;
+    }
+    .description{
+        font-size: 12px;
+        max-width: 300px;
+    }
+    .buttonContainer button{
+        padding: 9px 15px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 468px) {
+    .buttonContainer button{
+        padding: 10px 10px;
+        font-size: 9px;
+    }
+}
